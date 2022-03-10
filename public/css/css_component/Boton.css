@@ -1,0 +1,37 @@
+/*
+
+:root{
+    --color-primero:#019267;
+    --color-segundo:#00c897;
+    --color-tercero:#cd1818;
+    --color-cuarto:#f3950D;
+    --color-quinto:#f4e185;
+}
+
+*/
+
+.boot,
+.activo,
+.cerrado{
+    background-color: var(--color-quinto);
+    color: var(--color-primero);
+    height: 50px;
+    width: 80%;
+    border: none;
+    transition: all 0.5s;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+
+.boot:hover,
+.activo:hover{
+    background-color: var(--color-primero);
+    color: var(--color-quinto);
+    cursor: pointer;
+}
+
+.cerrado{
+    background-color: var(--color-primero);
+    color: var(--color-quinto);
+}

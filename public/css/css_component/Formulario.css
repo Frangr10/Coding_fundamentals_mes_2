@@ -1,0 +1,57 @@
+.formulario_registro{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    color: var(--color-quinto);
+    font-size: 18px;
+}
+
+.formulario_registro .input,
+.input_select,
+.input_text{
+    height: 35px;
+    font-size: 18px;
+    width: 60%;
+    background:none;
+    border: none;
+    border-bottom: 1px solid var(--color-primero);
+    color: var(--color-quinto);
+}
+.input_text{
+    padding-left: 10px;
+  background: var(--color-primero);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+.input_select{
+    padding-left: 10px;
+    border: 1px solid var(--color-primero);
+}
+
+.formulario_registro input::placeholder,
+.input_select::placeholder{
+    color: var(--color-quinto);
+}
+
+.input_select option{
+    background-color: var(--color-primero);
+    width: 100px;
+    padding: 0;
+    min-height: 0;
+    white-space:normal;
+    font-weight: 100;
+    display: grid;
+    place-items: center;
+}
+
+.input_input_select:focus,
+.input_select:hover{
+    border: 1px solid var(--color-primero);
+    background: none;
+}
+

@@ -1,0 +1,9 @@
+Reglas:
+
+-Cada jugador solo debe colocar su símbolo una vez por turno y no debe ser sobre una casilla ya jugada.
+
+-Se debe conseguir realizar una línea recta o diagonal por símbolo.
+
+-El primer jugador que consiga marcar una línea de tres símbolos será el ganador.
+
+-En caso de que todas las casillas estén llenas y nadie marcó 3 en raya, será un empate y se iniciará de nuevo el juego.

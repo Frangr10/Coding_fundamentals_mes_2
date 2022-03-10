@@ -1,0 +1,9 @@
+.container_boton{
+    top: 100px;
+    width: 80%;
+    height: 100%;
+    display:grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

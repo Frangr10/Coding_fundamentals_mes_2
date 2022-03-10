@@ -1,0 +1,7 @@
+.titulo,
+.titulo_home,
+.titulo_ranking{
+  color:var(--color-tercero);
+  font-family: 'Fredoka', sans-serif;
+  /* text-decoration: underline; */
+}

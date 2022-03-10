@@ -1,0 +1,26 @@
+/*
+
+:root{
+    --color-primero:#019267;
+    --color-segundo:#00c897;
+    --color-tercero:#cd1818;
+    --color-cuarto:#f3950D;
+    --color-quinto:#f4e185;
+}
+
+*/
+.view{
+    background-color: var(--color-segundo);
+    height: 80vh;
+    width: 300px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.descrip{
+    color: var(--color-sexto);
+    padding:0px  25px 0px 50px;
+}

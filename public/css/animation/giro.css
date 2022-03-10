@@ -1,0 +1,56 @@
+
+.container_giro{
+  height: 100px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+
+}
+.giro,
+.giro1{
+    height: 100px;
+    width: 100px;
+    color:var(--color-cuarto);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position:absolute;
+    /* left: 200px; */
+}
+
+.giro{
+   background-color: var(--color-jugador1);
+   z-index: 1;
+}
+
+.giro1{
+    background-color: var(--color-jugador2);
+    z-index: -1;
+}
+/*
+@keyframes giros1{
+    0%{
+      transform: rotateY(0deg);
+    }
+    50%{ 
+        z-index: -1;  
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes giros{
+    0%{
+      transform: rotateY(180deg);
+    }
+    50%{ 
+        background-color: blue;   
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+}
+*/
