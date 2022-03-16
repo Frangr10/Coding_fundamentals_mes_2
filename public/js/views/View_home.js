@@ -16,7 +16,7 @@ class Home extends View{
     constructor(){
         //recuperar datos
         super();
-        this.#titulo      =new Titulo("Tres en Raya",'titulo_home',"",'titulo_home',1,"");
+        this.#titulo      =new Titulo("Tic Tac Toe",'titulo_home',"",'titulo_home',1,"");
         this.#juego       =new Boton("Nuevo Juego",'btn_juego','','boot',"");
         this.#comoJugar   =new Boton("¿Como Jugar?",'btn_cmJugar','','boot',"");
         this.#panelControl=new Boton("Controles",'btn_pnControl','','boot',"");
