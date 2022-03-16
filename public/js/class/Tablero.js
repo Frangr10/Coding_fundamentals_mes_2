@@ -74,7 +74,7 @@ class Tablero extends View{
              e.target.innerHTML=(respuesta)?this.#jugador1.colocarFicha():this.#jugador2.colocarFicha();
              e.target.classList.add("cerrado");
              e.target.classList.remove("boot");
-             e.target.
+             e.target;
              this.#turnos++;
              //--
              //saber quien gano o si hay empate
